@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/css/mypage.css">
+    <title>マイページ</title>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="/index.html">メインページ</a>
+            <a href="/book_review.html">本のレビュー</a>
+            <a href="/used_book.html">中古本</a>
+        </div>
+        <div class="navbar-left">
+            <a href="#" class="cart">カート</a>
+            <a href="mypageHTML/mypage-update.html" class="login">マイページ</a>
+        </div>
+    </div>
+
+    <div class="mypage-content">
+        <h1>私のレビューリスト</h1>
+        <div class="review-actions">
+            <button id="delete-selected">選択項目削除</button>
+            <button id="add-review">新しいレビューを登録する</button>
+        </div>
+
+        <!-- Review list starts here -->
+        <div class="mypage-review">
+            <input type="checkbox" class="review-checkbox">
+            <div class="book-image">
+                <img src="style/images/reviewBook_1.jpg" alt="本の写真">
+            </div>
+            <div class="book-details">
+                <h2>本のタイトル</h2>
+                <p><strong>作家:</strong> 作家の名前</p>
+                <p>ジャンル : 建築</p>
+                <p class="review-detail">この本の内容は有名な建築家が作成しました。1880年代のヨーロッパの···</p>
+                <p>レビュー作成者: 私</p>
+            </div>
+        </div>
+
+        <div class="mypage-review">
+            <input type="checkbox" class="review-checkbox">
+            <div class="book-image">
+                <img src="style/images/reviewBook_2.jpg" alt="本の写真">
+            </div>
+            <div class="book-details">
+                <h2>本のタイトル</h2>
+                <p><strong>作家:</strong> 作家の名前</p>
+                <p>ジャンル : 科学</p>
+                <p class="review-detail">この本はアインシュタインの発明を···</p>
+                <p>レビュー作成者: 私</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

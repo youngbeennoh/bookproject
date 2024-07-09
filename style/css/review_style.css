@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #777;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+/* .navbar .login {
+    margin-left: auto;
+} */
+
+
+.main-content {
+    padding: 2em;
+}
+
+.main-content h1 {
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.book-image {
+    flex: 0 0 auto;
+    margin-right: 1em;
+}
+
+.book-image img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.book-details {
+    flex: 1 1 auto;
+}
+
+.book-details h2 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.5em;
+}
+
+.book-details p {
+    margin: 0.5em 0;
+}
+
+
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+.tabs button {
+    background-color: white;
+    border: 1px solid #fbfbfb;
+    padding: 0.5em 1em;
+    margin: 0 5px;
+    cursor: pointer;
+    color : #000;
+}
+.tabs button:hover {
+    background-color: #777777;
+    color : #ffff;;
+}
+.tabs .active {
+    background-color: #413f3f;
+    color:#ffff;
+}  
+
+/* 중고책 */
+
+.used-books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.book-item {
+
+    width: 15em;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.book-item .book-image {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.book-item .book-image img {
+    
+    margin-top:1.2em;
+    margin-left: 0.7em;
+    max-width: 12em;
+    height: 15em;
+    border-radius: 5px;
+}
+
+.book-info {
+    text-align: center;
+}
+
+.book-info h2 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.2em;
+}
+
+.book-info p {
+    margin: 0.5em 0;
+}
+
+
+.mypage-content {
+    padding: 2em;
+    margin-top: 5em; 
+}
+
+.mypage-content h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.review-actions {
+    display: flex;
+    text-align: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.review-actions button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.review-actions button:hover {
+    background-color: #555;
+}
+
+.mypage-review {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.mypage-review .book-image {
+    flex: 0 0 auto;
+    margin-right: 1em;
+}
+
+.mypage-review .book-image img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.mypage-review .book-details {
+    flex: 1 1 auto;
+}
+
+.mypage-review .book-details h2 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.5em;
+}
+
+.mypage-review .book-details p {
+    margin: 0.5em 0;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar input {
+    width: 38%;
+    border-radius: 20px;
+    border: 1px solid #bbb;
+    margin: 10px 0;
+    padding: 10px 12px;
+    justify-content: center;
+    font-family: fontAwesome;
+}
+
+.nextpage{
+    text-decoration: none;
+}

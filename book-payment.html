@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/css/payment-style.css">
+    <title>本の紹介ページ</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/index.html">メインページ</a>
+        <a href="/book_review.html">本のレビュー</a>
+        <a href="/used_book.html">中古本</a>
+        <!-- <a href="#" class="mypage">마イページ</a> -->
+        <a href="/login.html" class="login">Log-In</a> 
+    </div>
+
+    <div class="container">
+        <h1>注文・お払い</h1>
+        <div class="book-detail">
+            <div class="book-image">
+                <img src="style/images/reviewBook_1.jpg" >
+            </div>
+
+            <div class="book-info">
+                <p><strong>タイトル</strong></p>
+                <p><strong>価格:</strong> 1,000 イェン</p>
+                <p><strong>説明:</strong> この本は...........</p> 
+            </div>
+        </div>
+        <div class="book-detail">
+            <div class="book-image">
+                <img src="style/images/reviewBook_1.jpg" >
+
+            </div>
+            <div class="book-info">
+                <p><strong>タイトル</strong></p>
+                <p><strong>価格:</strong> 1,000イェン</p>
+                <p><strong>説明:</strong> この本は...........</p> 
+            </div>
+        </div>
+        <div class="total-price"><p><strong>総価格 : </strong>2,000</p></div>
+        <div class="comments-section">
+            <h3>注文情報</h3>
+
+            <div class="information-list">
+
+                <div class="information-each">
+                    <p><strong>名前 </strong></p> <input class="information" type="text" placeholder="toriyama">
+                </div>
+                <div class="information-each">
+                    <p><strong>住所 </strong></p> <input class="information" type="text" placeholder="inputtokyo, sumida-ku, ishiha, abc-101go"> 
+                </div>
+                <div class="information-each">
+                    <p><strong>電話番号</strong></p> <input class="information" type="text" placeholder=" 03-6060-6060">
+                </div>
+                <div class="information-each">
+                    <p><strong>e-mail</strong></p> <input class="information" type="text" placeholder="youngbeen@gmail.com"> 
+                </div>
+                <div class="information-form">
+                    <button class="submit-comment">注文確定</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

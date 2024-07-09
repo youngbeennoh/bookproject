@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #777;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 2em;
+    margin-top: 3em;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.cart-item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-details h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.cart-item-details p {
+    margin: 5px 0;
+}
+
+.remove-button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    color: darkgray;
+}
+
+.clear-cart {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.clear-cart button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clear-cart button:hover {
+    background-color: darkgray;
+}
+
+.select-all {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.select-all input {
+    margin-right: 10px;
+}

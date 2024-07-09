@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/css/mypage-style.css">
+    <title>mypage</title>
+    <body>
+        <div class="navbar">
+            <div>
+                <a href="/index.html">メインページ</a>
+                <a href="/book_review.html">本のレビュー</a>
+                <a href="/used_book.html">中古本</a>
+            </div>
+            <div class="navbar-left">
+                <a href="/shopping-list.html" class="mypage">カート</a>
+                <a href="#" class="login">マイページ</a>
+            </div>
+        </div>
+
+        <div class="main-body">
+            <div class="main-content-left">
+                <div class="cart-item">
+                    <a href="mypage-update.html">メンバー情報の修正</a>
+                </div>
+                <div class="cart-item">
+                    <a href="mypage-book-intro.html">紹介した本のリスト・登録</a>
+                </div>
+                <div class="cart-item">
+                    <a href="mypage-book-review.html">本のレビュー・登録</a>
+                </div>
+                <div class="cart-item">
+                    <a href="mypage-usedbook.html">販売本・登録</a>
+                </div>
+                <div class="cart-item">
+                    <a href="mypage-book-parchased.html">購入した本</a>
+                </div>
+            </div>
+
+            <div class="main-content-right">
+                <div class="update-member">
+                    <h3>メンバー情報修正</h3>
+                </div>
+                    <div class="input-field" name="memberId">
+                        <input class="box" type="text" aria-invalid="true" placeholder="youngbeen" readonly>
+                    </div>
+                    <div class="input-field" name="memberPassword">    
+                        <input class="box" type="password" placeholder="PASSWORD">
+                    </div>
+                    <div class="input-field" name="memberPasswordConfirm">    
+                        <input class="box" type="password" placeholder="PASSWORD CHECK">
+                    </div>
+                    <div class="input-field" name="memberPhone">    
+                        <input class="box" type="text" placeholder="PHONE">
+                    </div>
+                    <div class="input-field" name="memberAddress">    
+                        <input class="box" type="text" placeholder="HOME ADDRESS">
+                    </div>
+                <div class="clear-cart">
+                <button id="purchase-selected-button"><a href="book-ragistraion.html">登録する</a></button>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>

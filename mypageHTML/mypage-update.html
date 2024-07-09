@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/css/mypage-style.css">
+    <title>mypage</title>
+    <body>
+        <div class="navbar">
+            <div>
+                <a href="/index.html">メインページ</a>
+                <a href="/book_review.html">本のレビュー</a>
+                <a href="/used_book.html">中古本</a>
+            </div>
+            <div class="navbar-left">
+                <a href="/shopping-list.html" class="mypage">カート</a>
+                <a href="#" class="login">マイページ</a>
+            </div>
+        </div>
+
+        <div class="main-body">
+            <div class="main-content-left">
+                <div class="cart-item">
+                    <a href="mypage-update.html">メンバー情報の修正</a>
+                </div>
+                <div class="cart-item">
+                    <a href="mypage-book-intro.html">紹介した本のリスト・登録</a>
+                </div>
+                <div class="cart-item">
+                    <a href="mypage-book-review.html">本のレビュー・登録</a>
+                </div>
+                <div class="cart-item">
+                    <a href="mypage-usedbook.html">販売本・登録</a>
+                </div>
+                <div class="cart-item">
+                    <a href="mypage-book-parchased.html">購入した本</a>
+                </div>
+            </div>
+
+            <div class="main-content-right">
+                <div class="update-member">
+                    <h3>メンバー情報の修正</h3>
+                </div>
+                    <div class="update-info-list">
+                        <p><strong>名　前&nbsp;</strong></p> <p class="">&nbsp;손오공</p>
+                    </div>
+                    <div class="update-info-list">
+                        <p><strong>e-mail&nbsp;</strong><p class="">&nbsp;youngbeen@google.com</p>
+                    </div>
+                    <div class="update-info-list">
+                        <p><strong>住　所&nbsp;</strong><p class="">&nbsp;서울시 동대문구 신설동</p>
+                    </div>
+                    <div class="update-info-list">
+                        <strong>電話番号&nbsp;</strong><p class="">&nbsp;010-5555-5050</p>
+                    </div>
+        
+                <div class="clear-cart">
+                    <button id="purchase-selected-button"><a class="nextpage" href="mypage-update-input.html">情報を修正する</a></button>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/css/book-review-input.css">
+    <title>本登録ページ</title>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="/index.html">メインページ</a>
+            <a href="/book_review.html">本のレビュー</a>
+            <a href="/used_book.html">中古本</a>
+        </div>
+        <div class="navbar-left">
+            <a href="#" class="cart">カート</a>
+            <a href="mypageHTML/mypage-update.html" class="login">マイページ</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <h1>本登録</h1>
+        <div class="form-container">
+            <div class="book-image">
+                <label for="book-image">本の写真</label>
+                <input type="file" id="book-image" name="book-image" accept="image/*">
+            </div>
+            <div class="book-details">
+                <label for="book-title">本の名前</label>
+                <input type="text" id="book-title" name="book-title">
+
+                <label for="book-author">作家</label>
+                <input type="text" id="book-author" name="book-author">
+
+                <label for="book-description">本の説明</label>
+                <textarea id="book-description" name="book-description"></textarea>
+
+                <button type="submit">登録</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
